@@ -4,6 +4,7 @@
       <tab id="CargoPlanTab" label="Cargo Plan">
         <group id="CargoPlanGroup" label="Cargo Plan">
           <button id="UnitsAndWeightsButton" label="Units and Weights" size="large" onAction="CargoPlan.CalculateUnitsAndWeights" imageMso="Calculator" />
+          <button id="AddCargoTextBox" label="Cargo Text Box" size="large" onAction="CargoBox.AddCargoTextBox" imageMso="TextBoxWordClassic" />
         </group>
       </tab>
     </tabs>
