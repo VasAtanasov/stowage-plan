@@ -1,0 +1,11 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+  <ribbon>
+    <tabs>
+      <tab id="CargoPlanTab" label="Cargo Plan">
+        <group id="CargoPlanGroup" label="Cargo Plan">
+          <button id="UnitsAndWeightsButton" label="Units and Weights" size="large" onAction="CargoPlan.CalculateUnitsAndWeights" imageMso="Calculator" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI> 
