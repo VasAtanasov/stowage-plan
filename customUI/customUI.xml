@@ -2,11 +2,12 @@
   <ribbon>
     <tabs>
       <tab id="CargoPlanTab" label="Cargo Plan">
-        <group id="CargoPlanGroup" label="Cargo Calculations">
+        <group id="CargoPlanGroup" label="Calculations">
           <button id="UnitsAndWeightsButton" label="Units and Weights" size="large" onAction="CargoPlan.CalculateUnitsAndWeights" imageMso="Calculator" />
-          <button id="UnloadPorts" label="Discharge Ports" size="large" onAction="CargoPlan.UnloadSelectedPorts" imageMso="AddInsMenu" />
+          <button id="UnloadPortsButton" label="Clear Ports" size="large" onAction="CargoPlan.UnloadSelectedPorts" imageMso="AddInsMenu" />
+          <button id="PreArrivalButton" label="Pre-Arrival" size="large" onAction="CargoPlan.PreArrivalPort" imageMso="DataSubmitToOfficeServer" />
         </group>
-        <group id="DrawingPlanGroup" label="Cargo Drawings">
+        <group id="DrawingPlanGroup" label="Drawings">
           <button id="AddCargoTextBox" label="Cargo Text Box" size="large" onAction="CargoBox.AddCargoTextBox" imageMso="TextBoxWordClassic" />
         </group>
       </tab>
