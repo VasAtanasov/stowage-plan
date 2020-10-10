@@ -10,6 +10,10 @@
         <group id="DrawingPlanGroup" label="Drawings">
           <button id="AddCargoTextBox" label="Cargo Text Box" size="large" onAction="CargoBox.AddCargoTextBox" imageMso="TextBoxWordClassic" />
         </group>
+        <group id="PortsArrangementGroup" label="Ports Arrangement">
+          <button id="MoveRowUpButton" label="Move Row Up" size="normal" onAction="TableArrangement.MoveTableRowUp" imageMso="ShapeUpArrow" />
+          <button id="MoveRowDownButton" label="Move Row Down" size="normal" onAction="TableArrangement.MoveTableRowDown" imageMso="ShapeDownArrow" />
+        </group>
       </tab>
     </tabs>
   </ribbon>
