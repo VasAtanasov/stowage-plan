@@ -4,15 +4,15 @@
       <tab id="CargoPlanTab" label="Cargo Plan">
         <group id="CargoPlanGroup" label="Calculations">
           <button id="UnitsAndWeightsButton" label="Units and Weights" size="large" onAction="CargoPlan.CalculateUnitsAndWeights" imageMso="Calculator" />
-          <button id="UnloadPortsButton" label="Clear Ports" size="large" onAction="CargoPlan.UnloadSelectedPorts" imageMso="AddInsMenu" />
-          <button id="PreArrivalButton" label="Pre-Arrival" size="large" onAction="CargoPlan.PreArrivalPort" imageMso="DataSubmitToOfficeServer" />
+          <button id="UnloadPortsButton" label="Clear Port(s)" size="large" onAction="CargoPlan.UnloadSelectedPorts" imageMso="AddInsMenu" />
+          <button id="PreArrivalButton" label="Discharging Plan" size="large" onAction="CargoPlan.PreArrivalPort" imageMso="DataSubmitToOfficeServer" />
         </group>
         <group id="DrawingPlanGroup" label="Drawings">
-          <button id="AddCargoTextBox" label="Cargo Text Box" size="large" onAction="CargoBox.AddCargoTextBox" imageMso="TextBoxWordClassic" />
+          <button id="AddStaticCargoBox" label="Static Cargo" size="large" onAction="CargoBox.AddStaticCargoBox" imageMso="TextBoxWordClassic" />
         </group>
         <group id="PortsArrangementGroup" label="Ports Arrangement">
-          <button id="MoveRowUpButton" label="Move Row Up" size="normal" onAction="TableArrangement.MoveTableRowUp" imageMso="ShapeUpArrow" />
-          <button id="MoveRowDownButton" label="Move Row Down" size="normal" onAction="TableArrangement.MoveTableRowDown" imageMso="ShapeDownArrow" />
+          <button id="MoveRowUpButton" label="Move Row Up" size="large" onAction="TableArrangement.MoveTableRowUp" imageMso="ShapeUpArrow" />
+          <button id="MoveRowDownButton" label="Move Row Down" size="large" onAction="TableArrangement.MoveTableRowDown" imageMso="ShapeDownArrow" />
         </group>
       </tab>
     </tabs>
