@@ -16,6 +16,7 @@
         </group>
         <group id="DocumentsGroup" label="Documents">
           <button id="BackUpStowagePlanButton" label="Create Backup" size="large" onAction="Utils.BackUpStowagePlanAction" imageMso="FileBackUpSqlDatabase" />
+          <button id="ExportDeparturePlanButton" label="Departure Plan" size="large" onAction="DeparturePlan.ExportDeparturePlanButton" imageMso="ExportTextFile" />
         </group>
       </tab>
     </tabs>
