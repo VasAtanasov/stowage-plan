@@ -1,11 +1,10 @@
-<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+<customUI onLoad="RibbonOnLoad" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
   <ribbon>
     <tabs>
       <tab id="CargoPlanTab" label="Cargo Plan">
         <group id="CargoPlanGroup" label="Calculations">
           <button id="UnitsAndWeightsButton" label="Units and Weights" size="large" onAction="CargoCalculations.CalculateUnitsAndWeights" imageMso="Calculator" />
           <button id="UnloadPortsButton" label="Clear Port(s)" size="large" onAction="ClearPortModule.ClearSelectedPorts" imageMso="AddInsMenu" />
-          <button id="PreArrivalButton" label="Pre-Arrival Plan" size="large" onAction="PreArrivalModule.PreArrivalPort" imageMso="DataSubmitToOfficeServer" />
         </group>
         <group id="DrawingPlanGroup" label="Drawings">
           <button id="AddStaticCargoBox" label="Static Cargo" size="large" onAction="CargoBox.AddStaticCargoBox" imageMso="TextBoxWordClassic" />
@@ -16,7 +15,9 @@
         </group>
         <group id="DocumentsGroup" label="Documents">
           <button id="BackUpStowagePlanButton" label="Create Backup" size="large" onAction="Utils.BackUpStowagePlanAction" imageMso="FileBackUpSqlDatabase" />
-          <button id="ExportDeparturePlanButton" label="Departure Plan" size="large" onAction="DeparturePlan.ExportDeparturePlanButton" imageMso="ExportTextFile" />
+          <button id="ExportDeparturePlanButton" label="Export Departure Plan" size="large" onAction="DeparturePlan.ExportDeparturePlanButton" imageMso="ExportTextFile" />
+          <button id="PreArrivalButton" label="Create Pre-Arrival Plan" size="large" onAction="PreArrivalModule.PreArrivalPortButton" imageMso="DataSubmitToOfficeServer" />
+          <button id="ExportDischargePlanButton" label="Export Discharge Plan" getVisible="EnableControl" size="large" onAction="PreArrivalModule.ExportDischargePlanButton" imageMso="ExportSavedExports" />
         </group>
       </tab>
     </tabs>
