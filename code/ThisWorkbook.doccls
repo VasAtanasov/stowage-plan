@@ -1,0 +1,8 @@
+﻿'@Folder "StowagePlan.view.worksheets"
+Private Sub Workbook_Open()
+    tableColors = Array(8, 14, 22, 24, 35, 36, 37, 38, 40, 42, 43, 44, 45, 46, 47)
+    CreateBackUpFolder
+    CheckTableColorsConflict
+    
+    Application.OnKey "^+{E}", "MergeUnmergeCells"
+End Sub

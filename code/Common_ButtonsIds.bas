@@ -1,0 +1,20 @@
+Attribute VB_Name = "Common_ButtonsIds"
+'@Folder "StowagePlan.common"
+Option Explicit
+
+'Ribbon buttons ids
+Public Const UPDATE_TABLE_BUTTON_ID        As String = "UpdateTableButton"
+Public Const PRE_ARRIVAL_BUTTON_ID              As String = "PreArrivalButton"
+Public Const EXPORT_DISCHARGE_PLAN_BUTTON_ID    As String = "ExportDischargePlanButton"
+Public Const EXPORT_DEPARTURE_PLAN_BUTTON_ID    As String = "ExportDeparturePlanButton"
+Public Const BACK_UP_STOWAGE_PLAN_BUTTON_ID     As String = "BackUpStowagePlanButton"
+Public Const MOVE_ROW_UP_BUTTON_ID              As String = "MoveRowUpButton"
+Public Const MOVE_ROW_DOWN_BUTTON_ID            As String = "MoveRowDownButton"
+Public Const TOGGLE_ROWS_BUTTON_ID              As String = "ToggleRowsButton"
+Public Const HEAD_TO_FORE_BUTTON_ID             As String = "HeadToForeButton"
+Public Const HEAD_TO_AFT_BUTTON_ID              As String = "HeadToAftButton"
+Public Const HEAD_TO_PORT_BUTTON_ID             As String = "HeadToPortButton"
+Public Const HEAD_TO_STBD_BUTTON_ID             As String = "HeadToStbdButton"
+Public Const ADD_RECTANGLE_CARGO_BOX_BUTTON_ID  As String = "AddRectangleStaticCargoBox"
+Public Const ADD_CALLOUT_CARGO_BOX_BUTTON_ID    As String = "AddCalloutStaticCargoBox"
+Public Const ADD_INFO_BOX_BUTTON_ID             As String = "AddInfoBoxButton"
